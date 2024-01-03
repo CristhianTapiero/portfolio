@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toggler } from "@/components/toggler";
 import { Menu } from "@/components/menu"
 
@@ -21,6 +22,7 @@ export default function RootLayout({
           {children}
           <Menu />
         </div>
+        <SpeedInsights/>
       </body>
     </html>
   )
