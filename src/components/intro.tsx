@@ -37,12 +37,10 @@ export const Intro = () =>{
                 >
                     <Image fetchPriority="high" priority src="/profileC.webp" alt="Profile pic" height={200} width={200} className="rounded-full shadow-lg shadow-brand-500 dark:shadow-brand-300"/>
                 </motion.div>
-                <div className="w-full">
-                    <p>Hi! I&apos;m a front-end developer and a systems engineering student. </p>
-                    <p>I&apos;m passionate about technology and I love learning new things. </p>
-                    <p>I&apos;m currently learning new technologies such as cloud computing </p>
-                    <p>and I&apos;m looking for a job opportunity to apply my knowledge.</p>
-                </div>
+                    <p>Hi! I&apos;m a front-end developer and a systems engineering student.<br/>
+                    I&apos;m passionate about technology and I love learning new things. <br/>
+                    I&apos;m currently learning new technologies such as cloud computing <br/>
+                    and I&apos;m looking for a job opportunity to apply my knowledge.</p>
             </motion.div>
         </AnimatePresence>
     )

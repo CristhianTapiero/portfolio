@@ -13,7 +13,7 @@ export default function RootLayout({
         <title>Cristhian Tapiero</title>
         <meta name="description" content="Page made by Cristhian Tapiero" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/martini.png" />
+        <link rel="icon" href="/martini.webp" />
       </head>
       <body className="dark:bg-brand-500 dark:text-brand-100 bg-brand-100 text-brand-500">
         <div className="flex flex-col relative w-screen h-screen">
