@@ -13,6 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Cristhian Tapiero</title>
+        <meta name="google-site-verification" content="UTobaBJb-5JesqD-QqxW2lPyaKPK2mZcDoxKnV75dZY" />
         <meta name="description" content="Cristhian Tapiero&apersand;s personal portfolio, web developer, junior front end. Systems engineering student." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/martini.webp" />
