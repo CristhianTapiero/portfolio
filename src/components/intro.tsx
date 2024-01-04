@@ -28,10 +28,10 @@ export const Intro = () =>{
     return(
         <AnimatePresence>
             <motion.div 
-            className="flex w-5/6 h-5/6 max-sm:w-9/12 flex-col justify-center items-center gap-y-6 py-4 text-lg"
+            className="flex w-5/6 h-5/6 pt-2 max-sm:w-9/12 flex-col justify-center items-center gap-y-6 py-4 text-lg max-sm:text-base"
             variants={child}
             >
-                <h2 className="text-3xl font-semibold text-center">Frontend Developer</h2>
+                <h2 className="text-3xl max-sm:text-lg font-semibold text-center">Frontend Developer</h2>
                 <motion.div
                 variants={imgAnimation}
                 >
