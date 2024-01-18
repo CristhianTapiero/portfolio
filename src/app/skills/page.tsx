@@ -15,7 +15,7 @@ const Skills = () =>{
     }
     return(
         <AnimatePresence>
-            <motion.div variants={container} initial="hidden" animate="visible" className="flex flex-col justify-center items-center gap-5 w-full h-[calc(100%-7rem)] relative top-[3.5rem]">
+            <motion.div variants={container} initial="hidden" animate="visible" className="flex flex-col justify-center items-center gap-5 w-full h-[calc(100%-7rem)] max-sm:h[calc(100%-6rem)] relative top-[3.5rem] max-sm:top-[2.5rem]">
                 <h1 className="text-5xl font-semibold max-sm:text-2xl">My skills</h1>
                 <p className="text-lg max-sm:text-base max-sm:w-10/12 w-3/6">My skill set is mainly based in JavaScript for web development, front end languajes and Java / Python for backend</p>
                 <Carrousel />

@@ -17,7 +17,7 @@ const App = () => {
     return (
         <AnimatePresence>
             <motion.div 
-            className="flex flex-col justify-center items-center gap-2 w-full h-[calc(100%-7rem)] max-sm:top-[2.5rem] relative top-[3.5rem]"
+            className="flex flex-col justify-center items-center gap-2 w-full h-[calc(100%-7rem)] max-sm:h-[calc(100%-6rem)] max-sm:top-[2.5rem] relative top-[3.5rem]"
             variants={container}
             initial="hidden"
             animate="visible"
